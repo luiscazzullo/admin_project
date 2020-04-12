@@ -11,5 +11,5 @@ app.use('/api/auth', require('./routes/auth'));
 app.use('/api/projects', require('./routes/projects'))
 app.use('/api/tasks', require('./routes/task'));
 app.listen(port, '0.0.0.0', () => {
-    console.log(`El servidor corre en el puerto ${PORT}`);
+    console.log(`El servidor corre en el puerto ${port}`);
 })
